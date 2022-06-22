@@ -199,7 +199,7 @@ class MovieList extends ConsumerWidget {
       loading: () => const SwipeShimmer(),
       data: (movies) =>
       SizedBox(
-        height: MediaQuery.of(context).size.height * 0.39,
+        height: MediaQuery.of(context).size.height * 0.40,
         child: Swiper(
           itemCount: movies.length,
           viewportFraction: 0.42,

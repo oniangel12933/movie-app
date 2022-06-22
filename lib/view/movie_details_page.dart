@@ -24,7 +24,7 @@ class MovieDetailsPage extends StatelessWidget {
         slivers: [
           SliverPersistentHeader(
             delegate: MySliverAppBar(
-              expandedHeight: MediaQuery.of(context).size.height * 0.5,
+              expandedHeight: MediaQuery.of(context).size.height * 0.52,
               movie: movie
             ),
             pinned: true,
@@ -149,7 +149,7 @@ class MovieDetailsPage extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(width: 150,),
+            const SizedBox(width: 140,),
             SkeletonAvatar(
               style: SkeletonAvatarStyle(
                 height: 30,
